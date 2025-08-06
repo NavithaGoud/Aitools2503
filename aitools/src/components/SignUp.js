@@ -37,7 +37,7 @@ const SignUp = () => {
 
     try {
       // If you're not uploading files, just send JSON
-      const response = await axios.post("http://localhost:5000/signup", formData);
+      const response = await axios.post("/signup", formData);
       alert("✅ User registered successfully!");
     } catch (error) {
       console.error("❌ Error registering user:", error);

@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const User = require("./models/User");
+const path = require("path")
 
 const app = express();
 const PORT = 5000;
@@ -10,6 +11,7 @@ const PORT = 5000;
 // Middlewares
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname,"./client/build")));
 
 // MongoDB Connection
 mongoose.connect("mongodb+srv://Navitha:Navitha2324@cluster0.mxvyppw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
