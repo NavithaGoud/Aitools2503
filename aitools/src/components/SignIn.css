@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #4ecdc4;
+}
+
+.main-img {
+  width: 300px;
+  margin: 30px auto 10px;
+}
+
+.quote {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.b, .r, .n {
+  color: red;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+}
+
+.brn {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: red;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.pulse-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  color: #0077cc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  background-color: #4ecdc4;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
+.footer-links a {
+  color: #0077cc;
+  margin: 0 5px;
+}
